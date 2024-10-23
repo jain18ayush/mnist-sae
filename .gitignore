@@ -1,2 +1,7 @@
 /.venv
 /data
+/archive
+/Vit-Prisma
+.env
+.DS_Store
+*__pycache__*

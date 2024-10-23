@@ -6,6 +6,7 @@ class dSpritesDataset(Dataset):
         data = np.load(npz_file, allow_pickle=True, encoding='latin1')
         self.images = data['imgs']  # 2D images (64x64)
         self.latents_values = data['latents_values']  # Latent variables
+        self.latents_classes = data['latents_classes']
         self.transform = transform
 
     def __len__(self):
@@ -13,8 +14,14 @@ class dSpritesDataset(Dataset):
 
     def __getitem__(self, idx):
         img = self.images[idx]
+        label = self.latents_classes[idx][1] #shape of the image
 
         if self.transform:
             img = self.transform(img)
             
-        return img, idx  # You can return `idx` as a placeholder label for now
+        return img, label  # You can return `idx` as a placeholder label for now
+
+    def get_data_by_label(self, label):
+        filtered_images = [img for img, latents in zip(self.images, self.latents_classes) if latents[1] == label]
+        filtered_labels = [label] * len(filtered_images)
+        return filtered_images, filtered_labels
