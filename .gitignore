@@ -4,4 +4,5 @@
 /Vit-Prisma
 .env
 .DS_Store
-*__pycache__*
+*/__pycache__/
+/embeddings
