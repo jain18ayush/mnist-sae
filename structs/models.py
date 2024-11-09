@@ -126,7 +126,7 @@ class SimpleSAE(nn.Module):
             'decoder': []
         }
 
-    def forward(self, x, cache_activations=False):
+    def forward(self, x, cache_activations=True):
         # Encoder: Reduce the dimensionality
         encoded = torch.relu(self.encoder(x))
         if cache_activations:
