@@ -7623,3 +7623,35 @@ RuntimeError:
 2025-03-30 00:45:48,350 - feature_evolution - INFO - Saved combined indices to /Volumes/Ayush_Drive/mnist/feature_evolution_output/all_features_indices.json
 2025-03-30 00:45:48,433 - feature_evolution - INFO - Saved index and activation matrices to /Volumes/Ayush_Drive/mnist/feature_evolution_output
 2025-03-30 00:45:48,433 - feature_evolution - INFO - Analysis complete. Visualizations saved to /Volumes/Ayush_Drive/mnist/feature_evolution_output
+2025-04-19 14:33:13,498 - feature_evolution - ERROR - Error loading indices matrix: name 'np' is not defined
+2025-04-19 14:37:03,918 - feature_evolution - INFO - Loaded indices matrix with shape (2304, 5, 5)
+2025-04-19 14:40:07,869 - feature_evolution - INFO - Displaying 5 images for depth 1
+2025-04-19 14:40:07,876 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:07,909 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:07,935 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:07,941 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:07,954 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:07,956 - feature_evolution - INFO - Displaying 5 images for depth 2
+2025-04-19 14:40:07,959 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:07,963 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:07,968 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8087585].
+2025-04-19 14:40:07,973 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:07,976 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:07,979 - feature_evolution - INFO - Displaying 5 images for depth 3
+2025-04-19 14:40:07,983 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:07,987 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:08,008 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:08,026 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:08,046 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:08,047 - feature_evolution - INFO - Displaying 5 images for depth 4
+2025-04-19 14:40:08,053 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:08,066 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:08,070 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:08,075 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:08,079 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:08,080 - feature_evolution - INFO - Displaying 5 images for depth 5
+2025-04-19 14:40:08,083 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:08,088 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:08,143 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:08,148 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
+2025-04-19 14:40:08,153 - matplotlib.image - WARNING - Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [-0.42421296..2.8214867].
