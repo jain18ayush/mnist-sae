@@ -1,0 +1,1 @@
+rm /Volumes/Ayush_Drive/mnist/metrics/neuron_results_laion.jsonl
